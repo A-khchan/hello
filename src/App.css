@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  margin: 10px;
 }
 
 .App-logo {
@@ -26,6 +30,105 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.LoadAllButton {
+  min-height: 30px;
+  max-width: 150px;
+  font-size: 14px;
+  margin: 3px;  
+}
+
+.actionButton {
+  font-size: 14px;
+  margin: 3px;
+}
+
+.Record {
+  display: flex;
+  flex-direction: row;
+}
+
+.InputRow {
+  display: flex;
+  flex-direction: row;
+  margin: 4px;
+}
+
+.Name {
+  min-width: 250px;
+}
+
+.HeaderName {
+  min-width: 250px;
+  border-bottom: solid 1px black;
+  font-weight: bold;
+}
+
+.InputLabel {
+  min-width: 100px;
+}
+
+.Description {
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.HeaderDescription {
+  min-width: 300px;
+  border-bottom: solid 1px black;
+  font-weight: bold;
+}
+
+.deleteRecord:hover {
+  cursor:pointer;
+}
+
+.wrapper {
+  border: 2px solid blue;
+  padding: 5px;  
+  border-radius: 7px;
+  max-width: 580px;
+  max-height: 70vh;
+}
+
+.inputWrapper {
+  border: 2px solid red;
+  padding: 5px;  
+  border-radius: 7px;
+  max-width: 400px;
+  background-color: rgb(207, 205, 205);
+  margin-left: 3px;
+}
+
+.instruction {
+  max-width: 400px;
+  margin: 3px;
+}
+
+.ErrorText {
+  font-size: small;
+  color:blue;
+  margin-left: 2px;
+  opacity: 1;
+  transition: opacity 2s;
+}
+
+.ErrorText.invisible {
+  opacity: 0;
+}
+
+.inputField {
+  font-size: small;
+  min-width: 270px;
+}
+
+.red-border {
+  border: 1px solid red;
+}
+
+.white-border {
+  border: 1px solid white;
 }
 
 @keyframes App-logo-spin {
