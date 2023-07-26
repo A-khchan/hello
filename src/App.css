@@ -4,6 +4,7 @@
   text-align: left;
   align-items: center;
   margin: 10px;
+  min-width: 1000px;
 }
 
 .App-logo {
