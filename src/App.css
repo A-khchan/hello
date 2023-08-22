@@ -9,7 +9,7 @@ body, html {
   flex-direction: column;
   text-align: left;
   align-items: center;
-  margin: 10px;
+  margin: 0px;
   min-width: 100vw;
   min-height: 100vh;
   background-size: cover;
