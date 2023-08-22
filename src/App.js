@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
 import React from 'react';
+import background from './img/IMG_7064.jpg'
 
 function App() {
 
@@ -119,7 +120,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundImage: `url(${background})` }}>
       <div><h3>This is a demo of consuming REST API by React.</h3></div>
 
       <div className='Record'>
