@@ -30,7 +30,14 @@ function App() {
       .then((data) => {
                           setDrinks(data)
                           
-                      })  
+                      })       
+      .catch(err => {
+        setErrorMsg(err.message)
+        setTimeout(() => {
+          ErrorTextRef.current.classList.add('invisible')
+        }, 1000);
+      }) 
+
   }
 
   function newData() {
