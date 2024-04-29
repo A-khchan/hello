@@ -33,6 +33,7 @@ function App() {
                       })       
       .catch(err => {
         setErrorMsg(err.message)
+        console.log("loadDrinks: ", err.message)
         setTimeout(() => {
           ErrorTextRef.current.classList.add('invisible')
         }, 1000);
