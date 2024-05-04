@@ -28,7 +28,7 @@ function App() {
     fetch(django_server + "drinks/")
       .then((response) => {
          console.log("response is: ", response)
-         response.json()
+         return response.json()
       }    
       )
       //.then((data) => console.log(data))
