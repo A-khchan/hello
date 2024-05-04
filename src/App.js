@@ -12,7 +12,8 @@ function App() {
   const [id, setId] = useState(-1)
   const [selectedId, setSelectedId] = useState(-1)
   const [loadingRecord, setLoadingRecord] = useState(false)
-  const django_server = "http://35.185.233.59:8000/"
+  // const django_server = "http://35.185.233.59:8000/"
+  const django_server = "https://www.roboosoft.com/"
   const [errorMsg, setErrorMsg] = useState("")
 
   const ErrorTextRef = React.useRef(null)
