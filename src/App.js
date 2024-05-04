@@ -26,7 +26,11 @@ function App() {
   function loadDrinks() {
     //GET
     fetch(django_server + "drinks/")
-      .then((response) => response.json())
+      .then((response) => {
+         console.log("response is: ", response)
+         response.json()
+      }    
+      )
       //.then((data) => console.log(data))
       .then((data) => {
                           setDrinks(data)
