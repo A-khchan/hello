@@ -1,7 +1,7 @@
 {
   "name": "hello",
   "version": "0.1.0",
-  "homepage": "https://www.roboosoft.com/react_django_rest_api",
+  "homepage": "http://www.roboosoft.com/react_django_rest_api",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
